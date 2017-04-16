@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Add item"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/buttons"
+        android:onClick="addItemToMenu"/>
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Modify"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/buttons"
+        android:onClick="modifyItemToMenu"/>
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Remove"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/buttons"
+        android:onClick="removeItemToMenu"/>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="BACK"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/buttons"
+        android:onClick="editMenuBack"/>
+</RelativeLayout>
